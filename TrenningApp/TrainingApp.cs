@@ -24,7 +24,7 @@ namespace TrenningApp
             {
                 CustomerManager manager = new CustomerManager();
                 var customers = manager.GetCustomers(ConnectionParams.ConnectionString);
-                txtCustomerList.Text = customers.Select(s => s.ToString()).Aggregate((a, b) => a.ToString() + Environment.NewLine + b.ToString());
+                txtCustomerList.Text += customers.Select(s => s.ToString()).Aggregate((a, b) => a.ToString() + Environment.NewLine + b.ToString());
             }
             catch (Exception exception)
             {

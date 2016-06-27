@@ -1,0 +1,14 @@
+Wersja 0.0.1
+	Opis:
+		- Aplikacja w tej wersji zawiera jedn¹ formatkê na której znajduje siê przycisk oraz textBox. Podczas uruchomienai aplikacji tworzy siê baza danych o nazwie TreningApp.
+		Dodatkowo tworzona jest tabela Customers w której umieszczone zosta³y testowe dane.
+		- W tej wersji po naciœniêciu przycisku pobierz do textBoxa pobierani s¹ wszystcy kontrahenci a wyœwietlone zostaje ich Identyfikator oraz Imiê.
+	Zadanie:
+		1. Zapoznaæ siê z aplikacj¹ , jak s¹ wykonywane zapytania do bazy danych. Oraz jak wygl¹da przep³yw informacji od przyciœniêcia przycisku 'Pobierz' do pokazania siê danych na ekranie.
+		2. Dodaæ wyœwietlanie pozosta³ych danych z tabelki (Nazwisko,Numer telefonu);
+		3. Po klikniêciu pobierz w oknie powinny siê pojawiæ jedynie dane ktore zosta³y w tym momencie pobrane.
+		4. Dodaæ mo¿liwoœæ filtrowania kontrahentów po ich numerach telefonów
+		5. Dodaæ przycisk który dodaje do tabelki z kontrahentami dwa dodatkowe pola 'Data urodzenia','Wyp³ata', pola powinny pojawiæ siê w wyœwietlanym formularzu.
+		6. Dodaæ formularz który umo¿liwi dodawanie kolejnych kontrahentów
+		7. Dodaæ formularz "Wyp³aty" w których bêdzie znajdowaæ siê textBox oraz przycisk "Wyp³aæ". Wpisana wartoœæ powinna powiêkszaæ wyp³atnê wszystkich wczytanych kontrahentów.
+		8. Jaka kolwiek zmiana na kontrahencie powinna po naciœniêciu przycisku "Zapisz" zapisaæ siê do bazy danych
