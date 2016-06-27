@@ -19,6 +19,7 @@ namespace TrenningApp
         {
             try
             {
+
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
